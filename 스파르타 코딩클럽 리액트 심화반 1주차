@@ -10,3 +10,4 @@ index.js에서
 Switch가 Routes로 변경되었다.
 또한 Route 내의 component가 element로 변경되었다.
 중첩 라우팅을 방지하는 exact가 사라졌다.
+
