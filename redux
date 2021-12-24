@@ -1,4 +1,3 @@
-11/2
 -redux 용어
 1. State : 리덕스에서 저장하고 있는 상태값(=데이터)
 
@@ -32,7 +31,6 @@ export : {}안에 여러 개 불러오기 가능
 export default : {}없이 하나만 불러오기 가능 (한 파일 당 하나만 쓸 수 있음)
 Reducer를 export default로 빼줄 거라서 ActionCreator는 export로 씀
 
-11/3
 -combineReducers 및 createStore를 사용하여 스토어 생성
 -index.js에서 Provider를 사용하여 리덕스와 컴포넌트 연결
 -useSelector를 사용하여 스토어에서 상태값 불러오기
