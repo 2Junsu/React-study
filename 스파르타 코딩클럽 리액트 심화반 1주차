@@ -1,9 +1,7 @@
 react-router-dom이 v6으로 업데이트 되면서 몇 가지 달라진 점이 있다.
 index.js에서
 <BrowserRouter>
-  <Routes>
-    <Route path="/" element={<App />} />
-  </Routes>
+  <App />
 </BrowserRouter>
 의 형태로 쓴 후, App.js에서는 BrowserRouter를 안 써도 된다.
 
